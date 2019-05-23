@@ -2,16 +2,8 @@
 
 atom-text-editor {
   position: relative;
-  background-color: #252d43;
+  background-color: #202940;
   color: @syntax-text-color;
-  background: -webkit-gradient(
-    linear, left top, right top,
-    color-stop(0%,rgba(37,45,67,1)),
-    color-stop(50%,rgba(37,45,67,1)),
-    color-stop(100%,rgba(37,45,67,0.9))),
-    url(http://tuckie.zone/css-zone/bg.png)
-    repeat 0 0;
-    animation: scrollz 10s infinite cubic-bezier(0.5, 0.5, 0.5, 0.5);
 }
 
 @keyframes scrollz {
@@ -20,7 +12,7 @@ atom-text-editor {
 }
 
 atom-text-editor .gutter {
-  background-color: #232A41;
+  background-color: #202940;
   color: @syntax-gutter-text-color;
 }
 
@@ -34,7 +26,7 @@ atom-text-editor .gutter .line-number.cursor-line-no-selection {
 }
 
 atom-text-editor .wrap-guide {
-  background-color: #434A71;
+  background-color: #333A61;
 }
 
 atom-text-editor .indent-guide {
@@ -55,15 +47,15 @@ atom-text-editor.is-focused .selection .region {
 }
 
 atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-editor.is-focused .line.cursor-line {
-  background-color: #43576E;
+  background-color: #2a3654;
 }
 
 .syntax--comment {
-  color: #43abae;
+  color: #4e5f8e;
 }
 
 .syntax--string {
-  color: #FBAE89;
+  color: #ffebed;
 }
 
 .syntax--constant.syntax--numeric {
@@ -71,45 +63,45 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 }
 
 .syntax--constant.syntax--language {
-  color: #997BAE;
+  color: #f8f4c9;
 }
 
 .syntax--constant.syntax--character, .syntax--constant.syntax--other {
-  color: #CAD8DB;
+  color: #cff9ba;
 }
 
 .syntax--variable.syntax--language, .syntax--variable.syntax--other {
-  color: #F2BAE6;
+  color: #b5fdea;
 }
 
 .syntax--variable.syntax--other.syntax--php {
-  color: #F2BAE6;
+  color: #b5fdea;
 }
 
 .syntax--variable.syntax--other.syntax--property.syntax--php {
-  color: #F2BAE6;
+  color: #b5fdea;
 }
 
 .syntax--keyword {
   font-weight: bold;
-  color: #BBAAEE;
+  color: #f8c9e0;
 }
 
 .syntax--keyword.syntax--operator.syntax--class.syntax--php, .syntax--keyword.syntax--operator.syntax--assignment.syntax--php {
-  color: #bae;
+  color: #f8c9e0;
 }
 
 .syntax--keyword.syntax--other {
-  color: #60BAE0;
+  color: #dbb5fd;
 }
 
 .syntax--keyword.syntax--control {
-  color: #BAE678;
+  color: #fdb5c8;
 }
 
 .syntax--storage {
   font-weight: bold;
-  color: #CAD8DB;
+  color: #b3e3ff;
 }
 
 .syntax--entity.syntax--name.syntax--class, .syntax--entity.syntax--name.syntax--type.syntax--class {
@@ -126,7 +118,7 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 }
 
 .syntax--entity.syntax--name.syntax--function {
-  color: #BAEEF5;
+  color: #92fcf5;
 }
 
 .syntax--entity.syntax--other.syntax--attribute-name {
@@ -135,16 +127,16 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 
 .syntax--support.syntax--function {
   font-weight: bold;
-  color: #CAD8DB;
+  color: #b3e3ff;
 }
 
 .syntax--meta.syntax--function-call {
-  color: #6DA5EA;
+  color: @syntax-text-color;
 }
 
 .syntax--meta.syntax--function-call.syntax--object {
   font-weight: bold;
-  color: #6DA5EA;
+  color: @syntax-text-color;
 }
 
 .syntax--support.syntax--constant {
@@ -159,7 +151,7 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 
 .syntax--storage.syntax--type {
   font-weight: bold;
-  color: #CAD8DB;
+  color: #b3e3ff;
 }
 
 .syntax--invalid {

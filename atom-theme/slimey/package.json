@@ -2,12 +2,13 @@
   "name": "slimey",
   "theme": "syntax",
   "version": "0.0.0",
-  "description": "A short description of your syntax theme",
+  "description": "A dark, cool-toned and vibrant theme",
   "keywords": [
     "syntax",
-    "theme"
+    "theme",
+    "slimey"
   ],
-  "repository": "https://github.com/atom/slimey",
+  "repository": "https://github.com/votetuckie/slimey",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
